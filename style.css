@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #f1f3f6;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.logo a{
+    color: white;
+    font-size: 11px;
+    font-style: italic;
+    text-decoration: none;
+}
+.logo span{
+    color: #ffe500;
+}
+.search{
+    min-width: 250px;
+    width: calc(100% - 540px);
+    margin-right: auto;
+    align-items: baseline;
+    color: #757575;
+}
+.search input{
+    font-size: 0.8em;
+    border: none;
+    padding: 0;
+    outline: none;
+}
+.search input:focus{
+    box-shadow: none;
+}
+.search-item h6{
+    color: rgb(101, 101, 104);
+    font-size: 0.8em;
+}
+.search-item a{
+    color: rgb(90, 80, 90);
+    font-size: 0.8em;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.login button{
+    border-radius: 0%;
+    border: 0;
+    padding: 0.375rem 2.75rem;
+}
+.dropdown:hover.dropdown-menu{
+    display: block;
+}
+.login.list{
+    font-size: 0.8em;
+}
+#signup{
+    font-weight: 600em;
+}
+.more{
+    padding: 0;
+    padding: flex;
+    justify-content: flex-start;
+}
+.more list{
+    font-size: 0.8em;
+}
+.carousel slide{
+    width: 100%;
+    position: relative;
+}
+.slider-header h4{
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+.sales-bammer h6{
+    font-size: 0.9em;
+    margin-bottom: 0;
+}
+.sales-banner .view-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+.view-btn button{
+    font-size: 0.9em;
+    padding: 0.4em 1.5em;
+    border-radius: 0;
+}
+.sales{
+    cursor: pointer;
+    height: 15em;
+    padding: 0em 1em;
+    margin: .1em .2em;
+    width: 13en;
+    border: 0;
+    box-sizing: border-box;
+}
+.content-section{
+    height:fit-content ;
+}
+
+.sales img{
+    height: 60%;
+    transform:scale(0.97) ;
+}
+.sales img:hover{
+    transform: scale(1);
+}
+.sales a{
+    text-decoration: none;
+}
+.information{
+    background-color: white;
+    color: #878787;
+    margin: 2% 0%;
+}
+.information h1{
+    font-size: 1.5em;
+}
+.information h2{
+    font-size: 1.2em;
+}
+
+.info{
+font-size: .8em;
+padding-bottom: 1%;
+font-family: Helvetica, sans-serif;
+}
+footer{
+    background-color: #172337;
+    color: white;
+    padding-top: 3%;
+}
+.Footer h6{
+    color: #878787;
+    font-size: 0.8em;
+}
+
+.Footer div{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 0.75em;
+    font-weight: 100;
+}
+.Footer a{
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.8em;
+}
+footer i{
+    color: gold;
+}
+footer span{
+    font-size: 0.75em;
+    cursor: pointer;
+}
+.Footer img-fluid{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.Footer div{
+    color: white;
+}
+.option{
+    color: #212121;
+    position: sticky;
+    justify-content: space-between;
+    display: flex;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+.options div{
+    box-sizing: border-box;
+    padding: 12px 8px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0;
+    padding-left: 12px;
+    padding-right: 11px;
+}
+.option-top{
+    padding: 0;
+    padding: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    opacity: 1;
+}
+.list{
+    font-size: 0.8em;
+}
+.options-img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    cursor: pointer;
+
+}
